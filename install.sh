@@ -93,7 +93,7 @@ pkg install openssh -y
 echo "устоновка bash-completion"
 apt install bash-completion -y
 
-mv .bashrc /data/data/com.termux/files/home
+cp .bashrc /data/data/com.termux/files/home
 
 echo все пакеты Установлены 
 
