@@ -1,4 +1,5 @@
 #! /bin/bash
+
 #Автор: Alikber_Guseynov
 
 #обновление пакетов
@@ -52,7 +53,7 @@ echo "устоновка htop"
 #htop счётчик процессов 
 pkg install htop -y
 echo "устоновка:man"
-#справачник о команде
+#справачник команд
 pkg install man -y
 echo "устоновка mc"
 #двух стороний проводник
@@ -86,13 +87,13 @@ echo 'устоновка toilet'
 # устоновка toilet
 pkg install toilet -y
 echo 'устоновка openssh'
-#Это ssh
+#устоновка ssh
 pkg install openssh -y
  #включение ssh
  sshd
 echo "устоновка bash-completion"
 apt install bash-completion -y
-
+#копирование .bashrc.sh
 cp .bashrc /data/data/com.termux/files/home
 
 echo все пакеты Установлены 
