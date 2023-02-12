@@ -10,4 +10,4 @@ alias py2="python2"
 alias pyupdg="pip install --upgrade pip"
 alias vim="nvim"
 alias neofetch="neo"
-alias 
+alias toilet="toll"
