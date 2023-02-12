@@ -110,8 +110,8 @@ echo 'Имя пользователь:' whoami #имя пользователя
 neofetch
 
 date #дата и время 
+ddress 
 
-echo 'ip адрес'ifconfig #ip address 
-
+echo 'ip адрес'ifconfig #ip a
 echo 'Запуск ubuntu.sh'
 bash ubuntu.sh
