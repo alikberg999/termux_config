@@ -89,8 +89,7 @@ pkg install toilet -y
 echo 'устоновка openssh'
 #устоновка ssh
 pkg install openssh -y
- #включение ssh
- sshd
+ #включение sshы
 echo "устоновка bash-completion"
 apt install bash-completion -y
 #копирование .bashrc.sh
@@ -110,7 +109,6 @@ echo 'Имя пользователь:' whoami #имя пользователя
 neofetch
 
 date #дата и время 
-ddress 
 
 echo 'ip адрес'ifconfig #ip a
 echo 'Запуск ubuntu.sh'
