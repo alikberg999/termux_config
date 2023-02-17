@@ -22,6 +22,8 @@ echo "устоновка vim"
 pkg install vim -y
 echo "устоновка neovim"
 pkg install neovim -y
+mkdir .config/nvim
+cp .confog/nvim/
 echo "устоновка python"
 # python 
 pkg install python -y
