@@ -8,9 +8,7 @@
 :set mouse=a
 
 call plug#begin()
-
 Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://github.com/mattn/emmet-vim'
 Plug 'https://github.com/tc50cal/vim-terminal'
-
 call plug#end()
