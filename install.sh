@@ -1,9 +1,7 @@
 #! /bin/bash
-
 #Автор: Alikber_Guseynov
 
 #обновление пакетов
-
 echo 'обновление пакетов'
 apt update && apt full-upgrade -y
 
@@ -22,8 +20,13 @@ echo "устоновка vim"
 pkg install vim -y
 echo "устоновка neovim"
 pkg install neovim -y
-mkdir .config/nvim
-cp .confog/nvim/
+
+mkdir /data/data/com.termux/files/home/.config/nvim
+cp Nvim/init.vim /data/data/com.termux/files/home/.config/nvim
+#PlugInstall
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+       
 echo "устоновка python"
 # python 
 pkg install python -y
@@ -55,7 +58,7 @@ echo "устоновка htop"
 #htop счётчик процессов 
 pkg install htop -y
 echo "устоновка:man"
-#справачник команд
+#справачник о команде
 pkg install man -y
 echo "устоновка mc"
 #двух стороний проводник
@@ -89,15 +92,13 @@ echo 'устоновка toilet'
 # устоновка toilet
 pkg install toilet -y
 echo 'устоновка openssh'
-#устоновка ssh
+#Это ssh
 pkg install openssh -y
  #включение ssh
  sshd
 echo "устоновка bash-completion"
 apt install bash-completion -y
-#копирование .bashrc.sh
 cp .bashrc /data/data/com.termux/files/home
-
 echo все пакеты Установлены 
 
 echo "ударение и очистка ненужных пакетов"
