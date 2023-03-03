@@ -8,5 +8,4 @@ and the script install everything yourself
 [RU-ru]
 конфигурацыя Termux 
 пропишите команду bash install.sh
->>>>>>> refs/remotes/origin/main
 и скрипт устоновит все сам 
