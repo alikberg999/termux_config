@@ -1,7 +1,5 @@
 #! /bin/bash
 #termux-config
-apt update && apt full-upgrade -y
-apt autoremove && apt autoclean -y
 alias updg="apt update && apt full-upgrade -y"
 alias reinstall="apt autoremove && apt autoclean -y"
 alias mic="micro"
